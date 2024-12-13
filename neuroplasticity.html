@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurologist</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4caf50, #81c784);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Container for Content */
+        .neurologist-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .neurologist-container h1 {
+            font-size: 3rem;
+            margin: 0 0 20px;
+        }
+
+        .neurologist-container p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 0 0 30px;
+        }
+
+        .neurologist-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .neurologist-container li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .neurologist-container li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+        }
+
+        /* Navigation Buttons */
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            background-color: white;
+            color: #4caf50;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttons a:hover {
+            background-color: #4caf50;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="neurologist-container">
+        <h1>Neurologist</h1>
+        <p>A neurologist is a medical doctor who specializes in diagnosing and treating disorders of the nervous system, including the brain, spinal cord, and nerves.</p>
+
+        <h2>Roles of a Neurologist:</h2>
+        <ul>
+            <li><strong>Diagnosis:</strong> Diagnoses neurological disorders like epilepsy, Alzheimer's, and Parkinson's disease.</li>
+            <li><strong>Treatment:</strong> Provides treatments including medication, therapy, and sometimes surgery.</li>
+            <li><strong>Prevention:</strong> Offers advice on preventing neurological conditions and maintaining brain health.</li>
+            <li><strong>Research:</strong> Conducts research to discover new treatments and understand brain functions.</li>
+        </ul>
+
+        <div class="buttons">
+            <a href="overview.html">Go to Overview</a>
+            <a href="anatomy.html">Learn Anatomy</a>
+            <a href="functions.html">Explore Functions</a>
+        </div>
+    </div>
+</body>
+</html>

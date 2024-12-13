@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Overview</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4caf50, #81c784);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Container for Content */
+        .overview-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .overview-container h1 {
+            font-size: 3rem;
+            margin: 0 0 20px;
+        }
+
+        .overview-container p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 0 0 30px;
+        }
+
+        .overview-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .overview-container li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .overview-container li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+        }
+
+        /* Navigation Buttons */
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            background-color: white;
+            color: #4caf50;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttons a:hover {
+            background-color: #4caf50;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="overview-container">
+        <h1>Brain Overview</h1>
+        <p>The brain is the most complex organ in the human body. It controls every aspect of our behavior, thoughts, and actions. Understanding the brain helps us learn how it drives both simple and intricate processes.</p>
+        
+        <h2>Key Functions:</h2>
+        <ul>
+            <li>Processing sensory information</li>
+            <li>Regulating emotions and mood</li>
+            <li>Controlling voluntary and involuntary movements</li>
+            <li>Storing and recalling memories</li>
+            <li>Making decisions and solving problems</li>
+        </ul>
+
+        <h2>Brain Structure Overview:</h2>
+        <p>The brain is divided into several important areas, each responsible for different functions:</p>
+        <ul>
+            <li><strong>Cerebrum:</strong> The largest part, responsible for thoughts, memory, reasoning, and movement.</li>
+            <li><strong>Cerebellum:</strong> Controls coordination, balance, and fine motor skills.</li>
+            <li><strong>Brainstem:</strong> Regulates basic functions such as heartbeat, breathing, and digestion.</li>
+        </ul>
+
+        <div class="buttons">
+            <a href="index.html">Go to Home</a>
+            <a href="anatomy.html">Learn Anatomy</a>
+            <a href="functions.html">Explore Functions</a>
+            <a href="neuroplasticity.html">Discover Neuroplasticity</a>
+        </div>
+    </div>
+</body>
+</html

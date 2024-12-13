@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Functions</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4caf50, #81c784);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Container for Content */
+        .functions-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .functions-container h1 {
+            font-size: 3rem;
+            margin: 0 0 20px;
+        }
+
+        .functions-container p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 0 0 30px;
+        }
+
+        .functions-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .functions-container li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .functions-container li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+        }
+
+        /* Navigation Buttons */
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            background-color: white;
+            color: #4caf50;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .buttons a:hover {
+            background-color: #4caf50;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="functions-container">
+        <h1>Brain Functions</h1>
+        <p>The brain controls many vital functions in the human body, from sensory processing to regulating emotions and movements. Below are the key functions of the brain:</p>
+        
+        <h2>Key Functions of the Brain:</h2>
+        <ul>
+            <li><strong>Cognition:</strong> Thought, reasoning, memory, and problem-solving.</li>
+            <li><strong>Movement:</strong> Control over voluntary and involuntary movements.</li>
+            <li><strong>Sensory Processing:</strong> Processing information from the five senses.</li>
+            <li><strong>Emotion:</strong> Regulation of emotions such as happiness, anger, and fear.</li>
+            <li><strong>Homeostasis:</strong> Maintaining balance, like body temperature and sleep cycles.</li>
+        </ul>
+
+        <div class="buttons">
+            <a href="overview.html">Go to Overview</a>
+            <a href="anatomy.html">Learn Anatomy</a>
+            <a href="neuroplasticity.html">Explore Neuroplasticity</a>
+        </div>
+    </div>
+</body>
+</html>
